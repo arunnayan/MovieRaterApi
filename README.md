@@ -16,5 +16,14 @@ django-admin startapp api
 python3 manage.py  runserver
 
 
-##
+## Eaach time when new app is installed run below
 python3 manage.py  migrate
+
+## Creating superuser
+
+python3 manage.py  createsuperuser
+
+--admin
+--admin
+
+
