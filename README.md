@@ -27,3 +27,10 @@ python3 manage.py  createsuperuser
 --admin
 
 
+## To create the database from model
+
+create model :
+python3 manage.py  makemigrations
+
+#perform operation
+python3 manage.py  migrate
